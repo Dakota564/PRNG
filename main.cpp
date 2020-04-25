@@ -7,7 +7,7 @@
 #include <cstdlib>
 
 //Modif du main
-
+//Je l'ai modifié pour Test
 int main(int argc, char const *argv[])
 {
     xoroshiro256plusplus x128;
