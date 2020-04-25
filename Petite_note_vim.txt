@@ -1,0 +1,26 @@
+set nu  : affichier le numero des lignes 
+:3      : retourne à la ligne 3
+
+i : insertion
+A : insertion en fin de ligne
+w : saute de mots en mots
+b : avant le mot
+dw: supprimer un mot
+$ : à la fin
+d$ : supprimer la ligne
+0 : debut de la ligne
+d0 : efface tout ce qui avait avant
+u : undo
+p : paste
+ctrl g : position dans le fichier
+G :  aller fin du fichier
+gg : aller debut du fichier 
+/ : chercher un mot et n pour aller à l'occurence suivante
+ctrl a : incremente le nombre dans la ligne 
+ctrl x : incremente le nombre dans la ligne 
+
+
+
+supprimer un commit :
+$ git reset --hard <commit hash>
+$ git push --force origin master
